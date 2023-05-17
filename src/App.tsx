@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.scss";
+import "./scss/App.scss";
 import MobileUI from "./components/MobileUI/MobileUI";
 
 function App() {

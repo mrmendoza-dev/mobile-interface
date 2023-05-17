@@ -1,28 +1,7 @@
-$border-rad-lg: 15px;
-$medium-light-text: #586e88;
-$light-text: #fcfcfc;
-$clr-accent: #22859b;
 
-$clr-bg: #16202c;
-$clr-font: #16202c;
-$clr-user: #22859b;
-$clr-sender: #253b4b;
+@import "./variables.scss";
+@import "./mixins.scss";
 
-@mixin button() {
-  display: inline-block;
-  padding: 0.4em 1em;
-  border-radius: 15px;
-  border: 1px solid $medium-light-text;
-  color: $medium-light-text;
-  font-size: 1rem;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-  cursor: pointer;
-
-  &:hover {
-    color: $light-text;
-  }
-}
 
 *,
 *::before,
